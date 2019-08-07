@@ -1,0 +1,86 @@
+/* RESETS e REGRAS GERAIS */
+body, h2, h1, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+* {
+ box-sizing: border-box;
+}
+/* HOME */ 
+.titulo{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: #28a745;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.titulo h3{
+    margin-top: 20px;
+}
+.titulo .btnHome{
+    width: 48px;
+}
+.titulo p{
+    margin-bottom: 20px;
+}
+
+.icones{
+    margin: 10px auto;
+}
+.colunaCustom{
+    width: 128px;
+    height: 128px;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.colunaCustom p{
+    margin-top: 10px;
+    text-align: center;
+}
+.colunaCustom a{
+    color: black;
+    font-weight: bold;
+}
+.linha{
+    margin: 30px;
+
+}
+
+.sobre p, .cardLei p{
+    text-align: justify;
+}
+
+.linhaLei{
+}
+.cardLei{
+    background-color: rgb(186, 231, 186);
+    margin: 5px 10px 5px 10px;
+    padding: 5px;
+}
+@media (max-width: 600px) 
+{
+    .linhaLei{
+    }
+    .cardLei{
+        background-color: rgb(186, 231, 186);
+        margin: 5px 10px 5px 10px;
+        padding: 10px;
+    }
+}
+
+.classifica{
+    text-align: justify;
+}
