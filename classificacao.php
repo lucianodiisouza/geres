@@ -1,5 +1,5 @@
 <?php
-    $pagina = "<br><h3>Classificação</h3>";
+    $pagina = "<br><h1>Classificação</h1>";
     include_once('_head.php');
     include_once('_navbar.php');
 ?>
@@ -107,7 +107,7 @@
     <b>Irradiação</b>: há uma excitação da camada externa dos elétrons das moléculas, devido á radiação ionizante, deixando-as carregadas, sendo assim haverá um rompimento do material genético (DNA ou RNA) dos microrganismos, resultando na morte dos mesmos.<br><br>
     O material após tratamento é encaminhado para um aterro sanitário que possua licenciamento ambiental. Nos casos de municípios que não possuem esta opção, vem sendo muito utilizada a implementação de valas sépticas, onde os RSS são depositados. As valas geralmente são revestida por uma manta geotêxtil impermeável, que reduz o risco de possíveis contaminações.<br>
     <br><br>
-     
+    <img src="img/abcfluxo.png">
     </div>
 
 </div>

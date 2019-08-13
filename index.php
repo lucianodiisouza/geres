@@ -1,5 +1,5 @@
 <?php
-    $pagina = "<h1>GERES</h1>";
+    $pagina = "<h1>GERES APP</h1>";
     include_once('_head.php');
     include_once('_navbar.php');
 ?>

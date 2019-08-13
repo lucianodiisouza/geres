@@ -1,5 +1,5 @@
 <?php
-    $pagina = "<br><h3>Manuais</h3>";
+    $pagina = "<br><h1>Manuais</h1>";
     include_once('_head.php');
     include_once('_navbar.php');
 ?>
